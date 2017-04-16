@@ -10,7 +10,7 @@ body, html {
 
 .wrapper{
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
     background: white;
     padding: 0;
 }
@@ -80,7 +80,7 @@ p{
 .internal{
     width: 600px;
     margin: 0 auto;
-    border: 1px solid #ffffff;
+    border: 0px solid #ffffff;
 }
 
 .topbox{
@@ -205,8 +205,8 @@ button{
     padding: 30px 32px 50px 32px;
 }
 
-addmarg_h4{
-    margin-bottom: 8px;
+.addmarg_p{
+    margin-top: 8px;
 }
 
 .flex-container {
@@ -217,7 +217,7 @@ addmarg_h4{
 }
 
 .bottom{
-    background-color: aqua;
+    background-color: #ffffff;
     padding: 60px 0 100px 0;
 }
 
@@ -233,6 +233,29 @@ addmarg_h4{
 
 .width150{
     width: 148px;
+}
+
+hr{
+    width: 560px;
+    margin: 0 auto;
+    height:1px; 
+    border:none; 
+    color:#ececec; 
+    background-color:#ececec;
+}
+
+.lineholder{
+    padding: 58px 0 48px 0;
+}
+
+.smallic{
+    width: 20px;
+    height: 20px;
+}
+
+.ic_contain{
+    margin-top: 20px;
+    width: 120px;
 }
 
 
