@@ -108,9 +108,24 @@ button{
     text-align: center;
 }
 
+button:hover{
+    background-color: #ffffff;
+}
+
+.btn_three:hover{
+    color: #76ae29;
+}
+
+.btn_one:hover{
+    color: #214b90;
+}
+
+.btn_two:hover{
+    color: #214b90;
+}
+
 .btn_one{
     font-size: 15px;
-    font-weight: 200;
     color: #ffffff;
     border-radius: 40px;
     background-color: #214b90;
@@ -120,7 +135,6 @@ button{
 
 .btn_two{
     font-size: 18.4px;
-    font-weight: 200;
     color: #ffffff;
     border-radius: 40px;
     background-color: rgba(0,0,0, 0.5);
@@ -131,7 +145,6 @@ button{
 
 .btn_three{
     font-size: 13px;
-    font-weight: 200;
     color: #ffffff;
     border-radius: 40px;
     background-color: #76ae29;
